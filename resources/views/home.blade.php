@@ -11,8 +11,11 @@
     .bg-custom{
             background-color: #3498db
         }
+    .bg-home{
+        background-color: rebeccapurple 
+    }
 </style>
-<body>
+<body class="bg-home">
  
 <nav class="navbar navbar-expand-lg navbar-light bg-custom">
 
@@ -21,7 +24,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active fs-2">
+            <li class="nav-item">
                 <a class="nav-link" href="{{url('/')}}">Home</a>
             </li>
             <li class="nav-item">

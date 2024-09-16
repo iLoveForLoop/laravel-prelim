@@ -21,7 +21,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active fs-2">
+            <li class="nav-item">
                 <a class="nav-link" href="{{url('/')}}">Home</a>
             </li>
             <li class="nav-item">
@@ -36,11 +36,14 @@
 
     <h1 class="display-1 text-primary text-center mb-4 text-dark">Picture Page</h1>
 
-    <img src="https://static.wikia.nocookie.net/kinderverse/images/3/32/Deku.jpg/revision/latest?cb=20211023070411" alt="deku">
+    <div class="container d-flex justify-content-center align-items-center">
+        <img src="https://static.wikia.nocookie.net/kinderverse/images/3/32/Deku.jpg/revision/latest?cb=20211023070411" alt="deku">
 
     <img src="https://static.wikia.nocookie.net/kinderverse/images/3/32/Deku.jpg/revision/latest?cb=20211023070411" alt="deku2">
 
     <img src="https://static.wikia.nocookie.net/kinderverse/images/3/32/Deku.jpg/revision/latest?cb=20211023070411" alt="deku3">
+    </div>
+    
     
 </body>
 </html>
